@@ -189,8 +189,8 @@
             
             </div>
             </div>
-            <div class="column column-right2"></div>
-             <img src = "images/wonpil12.jpg" style="float:right;"  alt=""> </div>
+            <div class="column-right2">
+             <img src = "images/wonpil12.jpg" style="float:right;"  alt=""> </div></div>
         </div>
     </section>
     </div>
@@ -222,6 +222,7 @@
         </div>
     </section>
     </div>
+
 
 <!---------MUSIC---------->
 <div class="container6">
@@ -265,39 +266,38 @@
 
 </div>
 
-        <div class="item3" id="contact">
+    
+    <!-----------CONTACT------------>
+ 
+
+
+
+    <div class="item3">
         <form id="myForm" action="mailto:fenharel55@bk.ru" enctype="text/plain" method="post">
-          <h1>CONTACT</h1>
+            <h2 class = "title" id="contact">CONTACT</h1>
 
-
+<div class="box">
           <label for="fname"> Enter your name:</label><br>
           <input type="text" id="fname" name="fname" value="" placeholder="Enter Your Name" onchange="textChange(this.value)">
           <br> <br>
           <label for="email">Enter Your Email: </label> <br>
           <input name="email" id="email" type="email" placeholder="Enter Your Email Address" required/>
 
-          <p class="error-message"> Please enter a valid e-mail address</p>
-          <br><br>
+          
         <p><textarea id="myTextarea" rows="10" cols="45" name="text" value=""></textarea></p>
 
         <button type="button" onclick="sendMail()">Send</button>
         <button type="button" onclick="clearButton()">Clear</button>
 
         </form>
-    <!-----------CONTACT------------>
-  <div>
+
+     </div>
+
+ <div class="contact">
     <p id="contact">Made by:Kapitonova Anna <br><br>
     <a href="https://vk.com/fenharel55">VK page </a> <br>
-    </p></div>
-
-
-
-
-
-
-
-
-      </div>
+  </p></div>
+ </div>
       <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     
       <script src="form.js"></script>
