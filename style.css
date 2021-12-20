@@ -1,0 +1,607 @@
+
+body
+{
+margin: 0;
+padding: 0;
+font-family: 'Rajdhani', sans-serif;
+
+
+
+
+}
+
+
+
+/*<<<<<<<<<<<<МЕНЮ>>>>>>>>>>>>>*/
+.container0 {
+    height: 5vh;
+    width: 100%;
+    background-position: center;
+    background-image: url(10.gif);
+    position: relative;
+
+
+    
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 10px;
+    border: 1px solid #505050;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
+
+.navbar{
+
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding: 15px 0;
+    justify-content: space-between;
+    background-image:url(10.gif) ;
+    height: 40px;
+    color:rgb(255, 255, 255);
+    
+
+   
+    
+}
+
+.logo{
+    left: 100px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+
+
+
+}
+.navbar ul li {
+    list-style: none ;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+
+
+
+
+/*<<<<<<<<<<<<СЛАЙДЕР>>>>>>>>>>>>>.*/
+.container
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-image: url(10.gif);
+    display: flex;
+   
+}
+
+.container .slider
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height: 100%;
+    animation: animate 24s linear infinite;
+
+    
+}
+
+.container .slider .slide
+{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.container .slider .slide .caption
+{
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    right: 60px;
+    padding: 30px;
+    background: rgba(0,0,0,.5) ;
+    box-sizing: border-box;
+}
+
+.container .slider .slide .caption h2
+{
+   margin: 0 0 20px;
+   padding: 0;
+   color: #ffffff;
+   font-size: 48px;
+}
+
+.container .slider .slide .caption p
+{
+   margin: 0 ;
+   padding: 0;
+   color: #ffffff;
+   font-size: 18px;
+}
+
+.container .slider .slide.slide1
+{
+  background: url(sunset.gif) ;
+  background-size: cover;
+  background-position: center ;
+}
+.container .slider .slide.slide2
+{
+  background: url(second.gif) ;
+  background-size: cover;
+  background-position: center ;
+}
+.container .slider .slide.slide3
+{
+  background: url(concert.gif) ;
+  background-size: cover;
+  background-position: center ;
+}
+
+.container .slider .slide.slide4
+{
+  background: url(jump.gif) ;
+  background-size: cover;
+  background-position: center ;
+}
+
+
+
+@keyframes animate 
+{
+    0%
+    {
+        left: 0;
+    }
+    20%
+    {
+        left: 0;
+    }
+    25%
+    {
+        left: -100%;
+    }
+    45%
+    {
+        left: -100%;
+    }
+    50%
+    {
+        left: -200%;
+    }
+    70%
+    {
+        left: -200%;
+    }
+    75%
+    {
+        left: -300%;
+    }
+    95%
+    {
+        left: -300%;
+    }
+    100%
+    {
+        left: -400%;
+    }
+}
+
+
+
+/*<<<<<<<<<SUNGJIN>>>>>>>>>>*/
+section{
+    padding: 100px 0;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+
+.container1
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-image: url(10.gif);
+    color: #ffffff;
+    
+    
+   
+}
+
+.info {
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-size: 25px;
+   
+}
+
+.info .title {
+    text-align: center;
+    position:relative;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom:5%; 
+    font-family: 'Rajdhani', sans-serif;
+    
+
+}
+
+.info .info-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+    position: relative;
+    left: 220px;
+    
+
+}
+
+
+/*<<<<<<<<<<<JAE>>>>>>>>>>*/
+.container2
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-image: url(11.gif);
+    color: #000000; 
+    padding-bottom:5%; 
+    
+   
+}
+.info2 {
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-size: 25px;
+   
+}
+
+
+
+.info2 .info-content2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+    position: relative;
+    left: 220px;
+    
+  
+
+}
+
+
+/*<<<<<<<<<YOUNG K >>>>>>>>>*/
+.container3
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-image: url(10.gif);
+    color: #ffffff;
+    padding-bottom:5%; 
+    
+    
+   
+}
+/*<<<<<<<<<<<<<<WONPIL>>>>>>>>>.*/
+.container4
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-image: url(11.gif);
+    color: #000000;  
+    padding-bottom:5%; 
+   
+    
+}
+
+
+/*<<<<<<<<<<<<DOWOON>>>>>>>>>>*/
+
+.container5
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-image: url(10.gif);
+    color: #ffffff;
+    
+    
+    
+   
+}
+
+
+
+/*<<<<<<<<<<<<<<<<MUSIC>>>>>>>>>>>>>>*/
+.container6
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-image: url(10.gif);
+    color: #ffffff;
+  
+    
+    
+   
+}
+
+.info {
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    font-size: 25px;
+   
+}
+
+.info .title {
+    text-align: center;
+    position:relative;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom:5%; 
+    font-family: 'Rajdhani', sans-serif;
+    
+
+}
+
+.swiper-slide {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70%;
+  
+}
+
+
+
+.contact{
+    margin: 0;
+    padding: 0 0 0;
+    font-family: 'Rajdhani', sans-serif;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-image: url(10.gif);
+    color: #ffffff;
+    position: relative;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   font-size: 25px;
+
+    
+}
+
+.container7{
+  
+  font-family: 'Rajdhani', sans-serif;
+  margin: 0;
+  padding: 0 0 0;
+  background-position: center;
+  background-image: url(10.gif);
+  color: #ffffff;
+  text-align: center;
+  height: 400px;
+
+  
+}
+
+.container7 .title {
+    text-align: center;
+    position:relative;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+    
+
+}
+
+
+
+.first{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rajdhani', sans-serif;
+  position: relative;
+  justify-content: center;
+  
+
+
+}
+.first li{
+  position: relative;
+  display: block;
+  color: #666;
+  font-size: 30px;
+  height: 120px;
+  width: 120px;
+  background: #171515;
+  line-height: 120px;
+  border-radius: 50%;
+  margin: 0 50px;
+  cursor: pointer;
+  transition: .5s;
+}
+.first li:before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: inherit;
+  /* background: #d35400; */
+  border-radius: 50%;
+  transform: scale(.9);
+  z-index: -1;
+  transition: .5s;
+}
+.first li:nth-child(1):before{
+  background: #4267B2;
+}
+.first li:nth-child(2):before{
+  background: #1DA1F2;
+}
+.first li:nth-child(3):before{
+  background: #E1306C;
+}
+.first li:nth-child(4):before{
+  background: #2867B2;
+}
+.first li:nth-child(4):before{
+  background: #ff0000;
+}
+.first li:hover:before{
+  filter: blur(3px);
+  transform: scale(1.2);
+   box-shadow: 0 0 15px #d35400; 
+}
+.first li:nth-child(1):hover:before{
+  box-shadow: 0 0 15px #4267B2;
+}
+.first li:nth-child(2):hover:before{
+  box-shadow: 0 0 15px #1DA1F2;
+}
+.first li:nth-child(3):hover:before{
+  box-shadow: 0 0 15px #E1306C;
+}
+.first li:nth-child(4):hover:before{
+  box-shadow: 0 0 15px #2867B2;
+}
+.first li:nth-child(4):hover:before{
+  box-shadow: 0 0 15px #ff0000;
+}
+.first li:nth-child(1):hover{
+  color: #456cba;
+  box-shadow: 0 0 15px #4267B2;
+  text-shadow: 0 0 15px #4267B2;
+}
+.first li:nth-child(2):hover{
+  color: #26a4f2;
+  box-shadow: 0 0 15px #1DA1F2;
+  text-shadow: 0 0 15px #1DA1F2;
+}
+.first li:nth-child(3):hover{
+  color: #e23670;
+  box-shadow: 0 0 15px #E1306C;
+  text-shadow: 0 0 15px #E1306C;
+}
+.first li:nth-child(4):hover{
+  color: #2a6cbb;
+  box-shadow: 0 0 15px #2867B2;
+  text-shadow: 0 0 15px #2867B2;
+}
+.first li:nth-child(4):hover{
+  color: #ff1a1a;
+  box-shadow: 0 0 15px #ff0000;
+  text-shadow: 0 0 15px #ff0000;
+}
+
+
+
+.container00{
+  display: block;
+  margin: 40px auto;
+  max-width: 960px;
+}
+input{
+  padding: 2px 5px;
+  margin-bottom: 5px;
+}
+form{
+  max-width: 450px;
+}
+form div{
+  position: relative;
+}
+form div label{
+  opacity: 0.3;
+  position: absolute;
+  top: 2px;
+  left: 10px;
+}
+div input:focus + label{
+  opacity: 0;
+}
+div input:valid{
+  background-image: url(check.png);
+  background-size: 20px;
+  padding-left: 23px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+div input:valid + label{
+  opacity:0;
+}
+input:invalid:not(:focus):not(:placeholder-shown){
+  background: pink;
+}
+input:invalid:not(:focus):not(:placeholder-shown) + label{
+  opacity: 0;
+}
+input:invalid:focus:not(:placeholder-shown) ~ .requirements{
+  max-height: 200px;
+  padding: 5px 10px;
+}
+.requirements{
+  padding: 0 10px;
+  color: #999;
+  max-height: 0;
+  transition: 0.28s;
+  overflow: hidden;
+  color: red;
+  font-style: italic;
+}
+
+
+.item3{
+  justify-content: right;
+}
