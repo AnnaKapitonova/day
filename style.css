@@ -298,11 +298,11 @@ section{
     float: left;
     position: relative;
     left: 220px;
-    
-  
-
 }
 
+.container2 .column-right2{
+  margin-right: -15%;
+}
 
 /*<<<<<<<<<YOUNG K >>>>>>>>>*/
 .container3
@@ -329,10 +329,13 @@ section{
     background-position: center;
     background-image: url(images/11.gif);
     color: #000000;  
-    padding-bottom:5%; 
-   
+    padding-bottom:5%;  
     
 }
+.container4 .column-right2{
+  margin-right: -15%;
+}
+
 
 
 /*<<<<<<<<<<<<DOWOON>>>>>>>>>>*/
@@ -551,7 +554,8 @@ section{
 
 
 .item3{
-     margin: 0;
+  
+    margin: 0;
      padding: 0 0 0;
      font-family: 'Rajdhani', sans-serif;
      width: 100%;
@@ -564,4 +568,19 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     font-size: 25px;
-}
+ }
+
+
+ .item3 .box{
+  border: 2px solid rgb(255, 255, 255);
+  width: 500px;
+  padding: 25px;
+    margin: 25px;
+    margin-left: -60%;
+ }
+
+ .contact{
+   
+   margin-top: -11%;
+   margin-left: 70%;
+ }
